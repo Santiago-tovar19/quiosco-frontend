@@ -49,6 +49,7 @@ export const Login = () => {
               name="email"
               placeholder="Tu email"
               ref={emailRef}
+              value={"admin@gmail.com"}
             />
           </div>
           <div className="mb-4">
@@ -62,6 +63,7 @@ export const Login = () => {
               name="password"
               placeholder="Tu contraseña"
               ref={passwordRef}
+              value={12345678}
             />
           </div>
 

@@ -65,7 +65,7 @@ export const useAuth = ({ middleware, url }) => {
     }
 
     if (middleware === "guest" && user && user.admin) {
-      navigate("/admin");
+      navigate("/admin/productos");
     }
 
     if (middleware === "admin" && user && !user.admin) {
